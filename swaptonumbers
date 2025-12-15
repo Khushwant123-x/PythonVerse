@@ -1,0 +1,8 @@
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+print(f"orginal values:a={a},b={b}")
+#swapping
+temp=a
+a=b
+b=temp
+print(f"after swapping;a={a},b={b}")
